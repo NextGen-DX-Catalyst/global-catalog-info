@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: transactions
+  title: Transactions
+  description: "Retrieve transaction data for budgeting tools, expense management, and more."
+spec:
+  owner: group:personal-finance-insights
+  domain: personal-finance-insights

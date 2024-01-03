@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: balance
+  title: Balance
+  description: "Enables you to retrieve real-time balance information from users' bank accounts. This can be particularly useful in preventing Non-Sufficient Funds (NSF) and ACH returns."
+spec:
+  owner: payments
+  domain: payments

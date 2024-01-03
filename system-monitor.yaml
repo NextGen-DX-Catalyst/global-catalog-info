@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: monitor
+  title: Monitor
+  description: Sanction, PEP, and watchlist screening for anti-money laundering compliance
+spec:
+  owner: fraud-and-compliance
+  domain: fraud-and-compliance

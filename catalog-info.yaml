@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: global-catalog-info
+  description: A collection of high-level metadata definitions of systems, domains, and components.
+spec:
+  targets:
+    # Domains
+    - ./domain-fraud-and-compliance.yaml
+    - ./domain-payments.yaml
+    - ./domain-personal-finance-insights.yaml
+    # Systems
+    - ./system-auth.yaml
+    - ./system-balance.yaml
+    - ./system-identity-verification.yaml
+    - ./system-liabilities.yaml
+    - ./system-monitor.yaml
+    - ./system-transactions.yaml
+    - ./system-transfer.yaml
+    # Users
+    - ./user-placeholders.yaml

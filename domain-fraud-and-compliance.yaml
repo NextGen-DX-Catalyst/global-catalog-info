@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: fraud-and-compliance
+  description: "Suite of systems designed to verify user identities, monitor fraudulent activities, and ensure compliance with anti-money laundering (AML) regulations."
+  title: Fraud and Compliance
+spec:
+  owner: user:fraud-and-compliance.director

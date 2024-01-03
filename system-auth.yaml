@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: auth
+  description: Facilitates ACH, wire, and other bank-to-bank transfers by retrieving bank account information.
+  title: Auth
+spec:
+  owner: payments
+  domain: payments

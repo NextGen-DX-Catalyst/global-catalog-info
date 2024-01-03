@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: identity-verification
+  title: Identity Verification
+  description: Global KYC compliance and anti-fraud. Verify user identity data and documents.
+spec:
+  owner: fraud-and-compliance
+  domain: fraud-and-compliance

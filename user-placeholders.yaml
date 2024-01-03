@@ -1,0 +1,29 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: payments.director
+spec:
+  profile:
+    displayName: Payments Director
+    email: payments-director@example.com
+  memberOf: [payments]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: fraud-and-compliance.director 
+spec:
+  profile:
+    displayName: Fraud and Compliance Director
+    email: fac-director@example.com
+  memberOf: [fraud-and-compliance]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: personal-finance-insights.director
+spec:
+  profile:
+    displayName: Personal Finance Insights Director
+    email: pfi-director@example.com
+  memberOf: [personal-finance-insights]

@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: payments
+  description: "Suite of systems that enable applications to initiate, process, and manage online transactions."
+  title: Payments
+spec:
+  owner: user:payments.director

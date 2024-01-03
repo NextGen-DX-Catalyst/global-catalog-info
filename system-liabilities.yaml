@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: liabilities
+  title: Liabilities
+  description: "Access loan data, like balances and interest rates, for student loans, mortgages, and credit cards"
+spec:
+  owner: personal-finance-insights
+  domain: personal-finance-insights

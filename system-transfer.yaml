@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: transfer
+  title: Transfer
+  description: "Send and receive money end to end."
+spec:
+  owner: payments
+  domain: payments

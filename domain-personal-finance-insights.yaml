@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: personal-finance-insights
+  title: Personal Finance Insights
+  description: "Provides transaction data retrieval, investment account insights, loan data access, and enrichment of existing transaction data for comprehensive financial management."
+spec:
+  owner: user:personal-finance-insights.director
